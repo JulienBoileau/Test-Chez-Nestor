@@ -1,0 +1,74 @@
+/***** VERSION DESKTOP *****/
+
+/* Titre accueil */
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(18, 161, 126);
+}
+
+/* Annonce accueil */
+
+figure {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: rgb(100, 114, 105);
+    border-radius: 20px;
+}
+
+figure img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+figure a {
+    color: black;
+}
+
+/* Page logement */
+
+.logementdetails {
+    margin-left: 10px;
+}
+
+.logementdetails a {
+    color: black;
+}
+
+.logementimg {
+    border-radius: 20px;
+    margin: 10px;
+}
+
+
+/***** VERSION MOBILE *****/
+
+@media screen and (max-width: 620px) {
+
+/* Annonce accueil*/
+
+figure {
+    width: 75%;
+    padding: 15px;
+}
+
+/* Page logement */
+
+h2 {
+    font-size: 20px;
+}
+
+.logementimg {
+    width: 100%;
+}
+
+.logementdetails a {
+    color: black;
+    font-size: 15px;
+}
+}

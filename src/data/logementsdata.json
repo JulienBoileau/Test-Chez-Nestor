@@ -1,0 +1,36 @@
+[
+    {
+        "id": "apartment01",
+        "title": "Studio vue montagne",
+        "description": "Beau studio type chalet avec vue sur la montagne",
+        "price": 250,
+        "imageURL": "https://static8.depositphotos.com/1035372/900/i/600/depositphotos_9001409-stock-photo-interior-of-mountain-wooden-lodge.jpg",
+        "altTxt": "Photo studio montagne"
+    },
+
+    {
+        "id": "apartment02",
+        "title": "Charmant T3 avec terrasse",
+        "description": "Bel appartement spacieux avec une grande terrasse exposée plein Sud",
+        "price": 400,
+        "imageURL": "https://st3.depositphotos.com/12985790/17048/i/600/depositphotos_170483574-stock-photo-room.jpg",
+        "altTxt": "Photo appartement avec terrasse"
+    },
+    {
+        "id": "apartment03",
+        "title": "Duplex dernier étage",
+        "description": "Superbe duplex avec de beaux volumes, au dernier étage avec vue panoramique sur la ville",
+        "price": 550,
+        "imageURL": "https://st3.depositphotos.com/2018053/18799/i/600/depositphotos_187998614-stock-photo-modern-apartment-design-loft.jpg",
+        "altTxt": "Photo duplex"
+    },
+    
+    {
+        "id": "apartment04",
+        "title": "Loft atypique",
+        "description": "Magnifique loft en plein centre-ville moderne et atypique",
+        "price": 700,
+        "imageURL": "https://st.depositphotos.com/1068269/4459/i/600/depositphotos_44591399-stock-photo-modern-loft.jpg",
+        "altTxt": "Photo loft atypique"
+    }
+]
