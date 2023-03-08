@@ -1,5 +1,12 @@
 /***** VERSION DESKTOP *****/
 
+/* Font */
+
+body
+{
+    font-family: 'Oswald', sans-serif;
+}
+
 /* Titre accueil */
 
 h1 {
@@ -27,22 +34,50 @@ figure img {
 }
 
 figure a {
+    text-decoration: none;
     color: black;
 }
+
+figure a:hover {
+    font-size: 17px;
+    transition-duration: 0.6s;
+}
+
+
 
 /* Page logement */
 
 .logementdetails {
-    margin-left: 10px;
+    width: 50%;
+    padding: 5px 0px 25px 0px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(100, 114, 105);
+    border-radius: 20px;
+}
+
+.logementdetails h2, .logementdetails p, .logementdetails a {
+    display: flex;
+    justify-content: center;
 }
 
 .logementdetails a {
+    text-decoration: none;
     color: black;
 }
 
+.logementdetails a:hover {
+    font-size: 17px;
+    transition-duration: 0.6s;
+}
+
 .logementimg {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
     border-radius: 20px;
-    margin: 10px;
 }
 
 
